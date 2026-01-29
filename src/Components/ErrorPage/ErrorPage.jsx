@@ -7,7 +7,7 @@ const ErrorPage = () => {
       <img src="" alt="" />
 
       <h1 className="text-5xl text-red-600">
-        Oops! This AI model doesn’t exist.
+        404 <span className="text-white">|</span> Page Not Found
       </h1>
       <p className="mt-5 text-2xl ">
         The page you are looking for is not available.
