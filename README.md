@@ -1,16 +1,53 @@
-# React + Vite
+# Dashboard Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive dashboard UI built with React, Vite, and Tailwind CSS. This project features interactive charts using Recharts and a clean design powered by DaisyUI.
 
-Currently, two official plugins are available:
+## 🔗 Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Demo**: [https://dashboard-overview-coral.vercel.app/](https://dashboard-overview-coral.vercel.app/)
+- **Repository**: [https://github.com/wp-shuvo/Dashboard-Overview-.git](https://github.com/wp-shuvo/Dashboard-Overview-.git)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Modern UI**: Styled with Tailwind CSS and DaisyUI components.
+- **Data Visualization**: Interactive and dynamic charts using Recharts.
+- **Fast Development**: Built on top of Vite for a lightning-fast development experience.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to get the project running on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/wp-shuvo/Dashboard-Overview-.git
+cd Dashboard-Overview-
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+## 🛠️ Tech Stack
+
+- **React** (@19.2.0)
+- **Vite** (@7.2.4)
+- **Tailwind CSS** (@4.1.17)
+- **DaisyUI** (@5.5.5)
+- **Recharts** (@3.7.0)
+- **React Router** (@7.13.0)
+- **Lucide React** (@0.563.0)
+
+---
+Developed by [wp-shuvo](https://github.com/wp-shuvo)
