@@ -34,7 +34,8 @@ const Dropdowns = () => {
           role="button"
           className="px-4 py-2 bg-[#0F172B80] text-white rounded-lg border border-[#2B7FFF1A] hover:bg-slate-800 transition-colors flex items-center justify-between w-full"
         >
-          <span className="mr-4 text-xs">Issues</span> <ChevronDown size={20} />
+          <span className="mr-4 text-xs md:mr-4 md:text-[16px]">Issues</span>{' '}
+          <ChevronDown size={20} />
         </div>
         <ul
           tabIndex="-1"
@@ -53,7 +54,8 @@ const Dropdowns = () => {
           role="button"
           className="px-4 py-2 bg-[#0F172B80] text-white rounded-lg border border-[#2B7FFF1A] hover:bg-slate-800 transition-colors flex items-center justify-between w-full"
         >
-          <span className="mr-4 text-xs">Today</span> <ChevronDown size={20} />
+          <span className="mr-4 text-xs md:mr-4 md:text-[16px]">Today</span>{' '}
+          <ChevronDown size={20} />
         </div>
         <ul
           tabIndex="-1"
